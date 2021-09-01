@@ -17,7 +17,7 @@ p{
     font-size: 18px
 
 }
-.box1{
+box1{
     border-width: 5px;
     border-color: rgba(0, 0, 0, 0.705);
     border-style: solid;
@@ -29,24 +29,24 @@ p{
     background-color: rgb(142, 115, 192);
 }
 
-#div1 {
+div1 {
     left: 0;
     top: 0;
 }
 
-#div3 {
+div3 {
     right: 0;
     top: 0;
 }
 
-#div2 {
+div2 {
     bottom: 0;
     position: fixed;
     left: 45%;
 
 }
 
-.box2{
+box2{
     border-width: 3px;
     border-color: black;
     border-style: solid;
