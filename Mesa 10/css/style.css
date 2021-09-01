@@ -1,0 +1,39 @@
+header{
+    border-radius: 20%;
+}
+h1,h2{
+    background-color: rgb(253, 125, 5);
+    text-align: center;
+    font-size: 35px;
+}
+
+body{
+   background-image: url(https://www.istoedinheiro.com.br/wp-content/uploads/sites/17/2021/01/parque-de-diversoes-pexels-1280x720.jpeg);
+background-repeat: no-repeat;
+background-size:2000px 1000px ;
+padding-bottom: 200px;
+box-sizing: border-box;
+float: center;
+}
+
+
+div{
+    height: 300px;
+}
+
+body{
+    text-align: center;
+}
+
+button{
+    
+    
+    height: 50px;
+    border-radius: 300px;
+    margin-top: 40px;
+    background-color: rgba(230, 50, 19, 0.877);
+    
+    border: black;
+    
+    font-size: 25px;
+}
