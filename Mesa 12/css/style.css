@@ -1,0 +1,109 @@
+@import url('https://fonts.googleapis.com/css2?family=Besley:ital@1&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Comfortaa:wght@300&display=swap');
+*{
+    margin: 0;
+    padding: 0; 
+}
+
+body{
+    background-image: url(../img/SP.jpg);
+    font-family: 'Besley', serif;
+    background-repeat: no-repeat;
+
+}
+
+header{
+    background-color: rgb(241, 220, 36);
+    padding: 10px 0;
+    text-align: center;
+    color: rgba(0, 0, 0, 0.89);
+    border-bottom: 4px solid black;
+
+}
+
+.paragrafo{
+    font-size: 20px;
+    color: white;
+    text-align: justify;    
+}
+
+.caixa{   
+    background-color: rgba(11, 3, 49, 0.671);
+    width: 40%;
+    padding: 10px;
+    font-family: 'Comfortaa', cursive;
+}
+
+.divisao {
+    margin-top: 6%;
+    background-color: rgb(243, 243, 243);
+    font-family: 'Comfortaa', cursive;
+   
+}
+
+.caixa2 h2{
+    padding: 15px 0;
+    background-color: rgb(241, 220, 36);
+    width: 50%;
+    color: rgb(10, 9, 5);
+    border-radius: 50px;
+    margin-top: 10px;
+}
+.caixa2{
+    margin-bottom: 10px;
+    font-family: 'Besley', serif;
+    border-top: 4px solid black;
+}
+
+.tituloCaixa{
+    margin-top: 35% ;
+    background-color: rgb(241, 220, 36);
+    width: 40%;
+    padding: 0 10px;
+    border-top-left-radius:50px ;
+    border-top-right-radius: 50px;
+}
+
+.rodape{
+    background-color: rgb(241, 220, 36);
+    width: 40%;
+    padding: 0 10px;
+    border-bottom-left-radius:50px ;
+    border-bottom-right-radius: 50px;
+    height: 40px;
+}
+
+.lista {   
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: justify;
+}
+.lista h3{
+    margin: 10px 0;
+}
+
+.lista li{
+    margin-bottom: 10px;
+}
+
+footer{
+    background-color: rgb(241, 220, 36);
+    height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 3px 0;
+    border-top: 4px solid black;
+}
+
+footer img{
+    width: 40px;
+    margin-left: 15px ;
+    transition: .2s;
+}
+
+footer img:hover {
+    width: 50px;
+}
