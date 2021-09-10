@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="../Mesa 14/CSS/style.css">
+  <link rel="shortcut icon" href="../Mesa 14/IMG/icon.jpg" type="image/x-icon">
+  <title>Encanto Doce Amor</title>
+</head>
+
+<body>
+  <main class="principal">
+    <section>
+
+      <img src="../Mesa 14/IMG/imagemMeio.png" alt="icone encanto doce amor">
+      <h2>Faça já seu pedido </h2>
+    </section>
+    <form action="#" method="POST">
+      <fieldset>
+        <legend> DADOS PESSOAIS </legend>
+        <label for="contato"> WhatsApp </label>
+        <input type="tel" name="email" placeholder="Ex: (11)98121-3249" required maxlength="14">
+        <label for="nome">Nome </label>
+        <input type="text" name="nome" placeholder="Ex: Yasmin Lorraine" required>
+      </fieldset>
+
+      <fieldset>
+        <legend>ENDEREÇO</legend>
+        <label for="CEP">CEP </label>
+        <input type="text" name="cep" placeholder="Ex: 05888050" required maxlength="8">
+        <label for="bairro">Bairro</label>
+        <input type="text" name="bairro" placeholder="Ex: Jardim Rosana" required>
+
+
+        <div class="endereçoGeral">
+          <div>
+            <label for="logradouro">Logradouro </label>
+            <input class="endereço1" type="text" name="logragradouro" placeholder="Ex: Av. Doutor Lacerda">
+          </div>
+
+          <div>
+            <label for="numero">N°</label>
+            <input class="numero" type="text" name="numero" placeholder="Ex: 217">
+          </div>
+
+        </div>
+
+      </fieldset>
+
+      <fieldset>
+        <legend> DOCES </legend>
+        <select name="Doce" id="Doce">
+          <option> Selecione </option>
+          <option value="Copo da Felicidade">Copo da Felicidade</option>
+          <option value="Bolo no pote">Bolo no pote - Ninho com morango</option>
+          <option value="Bolo no pote">Bolo no pote - Doce de leite</option>
+          <option value="Bolo no pote">Bolo no pote - Alpino</option>
+          <option value="Bolo no pote">Bolo no pote - Diamante Negro</option>
+          <option value="Bolo no pote">Bolo no pote - Ferrero Rocher</option>
+          <option value="Surpresa de Uva no pote">Surpresa de Uva no pote</option>
+          <option value="Brigadeiro">Brigadeiro</option>
+          <option value="Beijinho">Beijinho</option>
+
+        </select>
+      </fieldset>
+      <fieldset>
+        <legend> BEBIDAS </legend>
+        <select name="Bebidas" id="Bebidas">
+          <option>Selecione</option>
+          <option value="Milkshake">Milkshake</option>
+          <option value="Coca-cola">Coca-Cola</option>
+          <option value="Fanta Laranja">Fanta Laranja</option>
+          <option value="Guaraná Antarctica">Guaraná Antarctica</option>
+          <option value="Tubaina">Tubaina</option>
+          <option value="Suco de Laranja">Suco de Laranja</option>
+          <option value="Suco de Uva">Suco de Uva</option>
+          <option value="Suco de Maracujá">Suco de Maracujá</option>
+          <option value="Água">Água</option>
+
+        </select>
+      </fieldset>
+      <fieldset>
+        <legend>FORMA DE PAGAMENTO</legend>
+        <div class="formaPagamento">
+          <input type="radio" name="pagamento" id="credito">
+          <label for="credito">Crédito</label>
+          <input type="radio" name="pagamento" id="debito">
+          <label for="debito">Débito</label>
+          <input type="radio" name="pagamento" id="pix" checked>
+          <label for="pix">Pix</label>
+        </div>
+      </fieldset>
+      <fieldset>
+        <legend>DESCARTÁVEIS</legend>
+        <div class="descartaveis">
+          <input type="checkbox" name="colher" id="colher">
+          <label for="Talher">Talher</label>
+          <input type="checkbox" name="Guardanapo" id="Guardanapo">
+          <label for="guardanapo">Guardanapo</label>
+
+        </div>
+      </fieldset>
+      <fieldset class="agendamento">
+        <legend>AGENDAMENTO</legend>
+        <div>
+          <label for="Data">Data</label>
+          <input type="date" name="data" required>
+        </div>
+
+        <div>
+          <label for="hora">Horário</label>
+          <input type="time" name="time" required>
+        </div>
+      </fieldset>
+      <button class="botao1" type="submit">Pedir</button>
+      <button class="botao2" type="reset">Cancelar</button>
+    </form>
+  </main>
+
+</body>
+
+</html>
