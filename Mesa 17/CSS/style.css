@@ -14,8 +14,8 @@ img {
     width: 220px;
     display: block;
     position: relative;
-    top: 480px;
-    left: 480px;
+    top: 200px;
+    left: 1080px;
 
 }
 
@@ -35,8 +35,8 @@ img:hover{
 p{
     display: inline-block;
     position: relative;
-    top: 450px;
-    left: 488px;
+    top: 180px;
+    left: 1088px;
     background-color: bisque;
     color: rgba(2, 10, 1, 0.863);
     font-family: 'Roboto', sans-serif;
