@@ -1,0 +1,62 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Gluten:wght@200&display=swap');
+
+
+body{
+    background-image:url(../IMG/background.jpg);
+   
+    background-repeat: no-repeat;
+
+}
+
+img {
+    height: 200px;
+    width: 220px;
+    display: block;
+    position: relative;
+    top: 480px;
+    left: 480px;
+
+}
+
+img:hover{
+    animation: bola 0.90s normal;
+}
+
+@keyframes bola {
+    0%{opacity: 0%}
+    20%{opacity: 10%; transform: translateX(600px) translateY(-220px)rotate(-180deg) scale(0.8)}
+    40%{opacity: 35%; transform: translateX(780px) translateY(-210px)rotate(90deg) scale(0.6)}
+    60%{opacity: 55%; transform: translateX(850px) translateY(-200px) rotate(-180deg) scale(0.4)}
+    80%{opacity: 75%; transform: translateX(1000px)translateY(-190px) rotate(90deg) scale(0.2)}
+    100%{opacity: 100%; transform: translateX(1900px)translateY(-180px) scale(0.1)}   
+}
+
+p{
+    display: inline-block;
+    position: relative;
+    top: 450px;
+    left: 488px;
+    background-color: bisque;
+    color: rgba(2, 10, 1, 0.863);
+    font-family: 'Roboto', sans-serif;
+    font-size: 21px;
+    text-align: justify;
+}
+
+button{
+    background-color: rgb(73, 192, 221);
+    font-family: 'Gluten', cursive;
+    font-size: 20px;
+    border-radius: 10px;
+    padding: 10px 10px;
+    margin-left: 82px;
+    margin-top: 85px;
+    transition: 0.5s;
+}
+
+button:hover{
+    background-color: rgb(33, 71, 80) ;
+    color: white;
+
+}
