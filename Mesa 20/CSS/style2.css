@@ -34,7 +34,7 @@ body nav{
     
     background-color: rgba(5, 5, 5, 0.781);
     grid-area: nav;
-    height: 1388vh;
+    height: 1345vh;
     color: rgb(238, 228, 228);
     text-align: center; 
 }
@@ -161,3 +161,17 @@ main img{
 .subir img:hover{
     transform: scale(120%);
 }
+
+@media (min-width: 768px) {
+
+    body {
+      color: rgb(0, 0, 0);
+      display: grid;
+      grid-template-columns: 26.6vh 1fr;
+      grid-template-areas:
+      "header header"
+      "nav main"
+      "footer footer"; 
+    }
+  
+  }
