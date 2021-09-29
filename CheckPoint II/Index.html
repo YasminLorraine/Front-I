@@ -1,0 +1,104 @@
+<!-- Checkpoint II
+Grupo: Yasmin Lorraine Duarte Batista e Vinicius Machado Rodrigues -->
+
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="CSS/style.css">
+    <link rel="shortcut icon" href="IMG/Icon.png" type="image/x-icon">
+
+    <title>Cadastre-se conosco</title>
+</head>
+
+<body>
+    <main class="principal">
+        <div id="boxflex">
+
+        <section>
+
+                <img src="IMG/Icon.png" alt="">
+                <h2>Cadastre-se</h2>
+        </section>
+        <form action="#" method="POST">
+            <fieldset>
+                <div>
+                    <legend>DADOS PESSOAIS</legend>
+                </div>
+
+                <div class="dados">
+                    <Label for="nome"> Nome completo </Label>
+                    <input type="text" name="nome" placeholder="Ex: Alessandra Gomes Souza" required maxlength="100">
+                </div>
+
+                <div class="dados">
+                    <label for="email">E-mail</label>
+                    <input type="email" name="email" placeholder="Alessandra@outlook.com" required>
+                </div>
+
+                <div class="dados">
+                    <label for="contato">Número para contato</label>
+                    <input type="number" name="contato" placeholder="(11)91234-5678" required>
+                </div>
+
+                <div class="dados">
+                    <label for="data">Data de Nascimento</label>
+                    <input type="date" name="data" required>
+                </div>
+            </fieldset>
+
+            <fieldset>
+                <div>
+                    <legend>QUAL SUA IDADE?</legend>
+                </div>
+                <div class="idades">
+                    <input type="radio" name="Idade" id="MaiorIdade">
+                    <label for="Idade">18 anos ou mais</label>
+                    <input type="radio" name="Idade" id="MenorIdade">
+                    <label for="Idade">17 anos ou menos</label>
+                </div>
+            </fieldset>
+
+
+            <fieldset>
+                <div>
+                    <legend>SELECIONE UM PONTO DE INTERESSE</legend>
+                </div>
+                <div class="caixa">
+                    <input class="pontoInteresse" type="radio" name="opcao" id="opcao1" required>
+                    <label class="pontoInteresse" for="opcao">Av. Paulista</label>
+                    <input class="pontoInteresse" type="radio" name="opcao" id="opcao2" required>
+                    <label class="pontoInteresse" for="opcao">Japão - Liberdade</label>
+                    <input class="pontoInteresse" type="radio" name="opcao" id="opcao3" required>
+                    <label class="pontoInteresse" for="opcao">Praça da Sé</label>
+                </div>
+            </fieldset>
+
+            <fieldset>
+                <div>
+                    <legend>QUAL SEU INTERESSE NA CIDADE?</legend>
+                </div>
+                <div class="caixa">
+                    <input class="opcoes" type="checkbox" name="opcao1" multiple>
+                    <label class="opcoes" for="opcao1">Turista</label>
+                    <input class="opcoes" type="checkbox" name="opcao2" multiple>
+                    <label class="opcoes" for="opcao2">Residente</label>
+                    <input class="opcoes" type="checkbox" name="opcao3" multiple>
+                    <label class="opcoes" for="opcao3">Estudante</label>
+                </div>
+            </fieldset>
+
+            <button class="botao1" type="submit">Enviar</button>
+            <button class="botao2" type="reset">Resetar</button>
+        </form> </div>
+
+    </main>
+    </div>
+
+</body>
+
+</html>
